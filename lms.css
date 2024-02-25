@@ -1,0 +1,180 @@
+LMS.css #background {
+  min-height: 30px;
+  width: 100%;
+}
+
+.socialmedia {
+  text-decoration: none;
+  padding: 10px 12px;
+  color: rgb(22, 7, 230);
+}
+.savebox {
+  border: double;
+  width: 103%;
+  height: 30px;
+  background-color: #2c7ad6;
+}
+#top {
+  height: 83px;
+  width: 100%;
+  background: #f72104;
+  line-height: 40px;
+  padding: 10px 20px 9px 100px;
+  box-sizing: border-box;
+  word-spacing: 30px;
+}
+#menu {
+  height: 65px;
+  width: 100%;
+  background: rgb(5, 208, 235);
+}
+#logo {
+  height: 65px;
+  width: 40%;
+  background: rgb(250, 246, 249);
+  text-align: center;
+  line-height: 65px;
+  font-size: 40px;
+  float: left;
+}
+#menu1 {
+  height: 65px;
+  width: 60%;
+  background: white;
+  float: left;
+}
+#menu1 UL {
+  list-style: none;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+#menu1 LI {
+  height: 45px;
+  width: 130px;
+  text-align: center;
+  display: inline-block;
+  line-height: 45px;
+  transform: translateY(-5px);
+  color: black;
+  font-size: 20px;
+}
+#menu1 LI:hover {
+  background: #2c7ad6;
+  color: white;
+  transition: all ease 1s;
+  border-radius: 3px;
+}
+#slider {
+  height: 640px;
+  width: 100%;
+  background: url(image/4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  animation-name: slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+@keyframes slider {
+  from {
+    background: url(image/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  to {
+    background: url(image/4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+#x {
+  height: 640px;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.4);
+  float: left;
+  font-size: 41px;
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  box-sizing: border-box;
+  background: url(Images/apples.jpg);
+  background-size: cover;
+}
+#y,
+#z {
+  height: 640px;
+  width: 30%;
+  background: rgba(0, 0, 0, 0.4);
+  float: left;
+  background: url(Imagegs/ball.jpg);
+  background-size: contain;
+}
+
+#l {
+  height: 450px;
+  width: 80%;
+  background: rgba(224, 227, 230, 0.6);
+  float: left;
+  margin: 90px;
+  border-radius: 7px;
+}
+#l:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(50, 177, 40, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
+}
+#r {
+  height: 450px;
+  width: 80%;
+  background: rgba(224, 227, 230, 0.6);
+  margin: 90px auto;
+  border-radius: 7px;
+}
+#r:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(50, 177, 40, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
+}
+#student {
+  margin: 50px 50px;
+  color: blue;
+}
+#Teacher {
+  margin: 50px 50px;
+  color: white;
+}
+.t {
+  height: 40px;
+  width: 100%;
+  border: 2px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+#down {
+  height: 300px;
+  width: auto;
+  margin-top: 10px;
+  background: #2c7ad6;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+.footer {
+  height: 20px;
+  width: auto;
+  background: rgb(7, 199, 233);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-weight: 100px;
+}
+body {
+  background: url(Images/mountain.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
